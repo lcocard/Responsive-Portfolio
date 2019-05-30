@@ -49,6 +49,7 @@
         float: left;
         position: relative;
         width: 33vw;
+        height: 3rem;
         margin: 0 0 0 0;
         background-color: #4aaaa5;
         font-family: 'Georgia', Times, Times New Roman, serif;
@@ -132,7 +133,7 @@
     
     h1 {
         display: block;
-        font-size: 1.25rem;
+        font-size: 1.75rem;
         font-weight: normal;
     }
     
