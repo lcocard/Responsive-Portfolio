@@ -1,0 +1,309 @@
+/**
+* Responsive-Portfolio style_sm.css
+**/
+
+
+/* =============================================================================================== */
+/* =============================================================================================== */
+
+/* Devices 640px and up */
+
+@media only screen and (min-width: 40rem) and (max-width: 48rem) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    header {
+        width: 100%;
+        height: 3rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #ffffff;
+        border-bottom: 0.1rem solid #cccccc;
+        padding: 0;
+        margin: 0;
+        z-index: 2;
+    }
+    
+    body {
+        display: block;
+        background-image: url("../images/circles-light.png");
+    }
+    
+    /* Top Navigation Bar */
+    
+    .topcontainer {  
+        position: fixed;
+        top: 0;
+        width: 640px;
+        left: calc(50% - 320px);
+        background-color: #ffffff;
+        color: #333;
+        padding: 0;
+        margin: 0;
+        z-index: 3;
+    }
+    
+    #left {
+        float: left;
+        position: relative;
+        width: 33vw;
+        margin: 0 0 0 0;
+        background-color: #4aaaa5;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    #middle {
+        float: left;
+        position: relative;
+        width: 33vw;
+    }
+    
+    #right {
+        float: right;
+        position: relative;
+        width: 33vw;
+    }
+    
+    #navbar_row {
+        clear: both;
+        float: right;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 0.8rem;
+        color: #333;
+    }
+    
+    #about {
+        float: left;
+        padding: 0 0.2rem;
+    }
+    
+    #portfolio {
+        float: left;
+        text-align: center;
+        padding: 0 0.2rem;
+    }
+    
+    #contact {
+        float: left;
+        padding: 0 0.2rem;
+    }
+    
+    /* About Me */
+    
+    #container {
+        position: relative;
+        top: 3.5rem;
+        width: 640px;
+        left: calc(50% - 320px);
+        background-color: #ffffff;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #333;
+        line-height: 150%;
+        padding: 0;
+        z-index: 1;
+    }
+    
+    #About-Me {
+        top: 3px;
+        width: 100%;
+        height: calc(100vh - 3.125rem);
+        position: relative;
+        float: left;
+        background-color: #ffffff;
+        overflow-y: auto;
+    }
+    
+    #profile-picture {
+        float: left;
+        padding: 0.2rem;
+    }
+    
+    a {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        display: block;
+        font-size: 1rem;
+        color: rgba(126, 122, 122, 0.8);
+        text-decoration: none;
+    }
+    
+    h1 {
+        display: block;
+        font-size: 1.25rem;
+        font-weight: normal;
+    }
+    
+    
+    h2 {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        display: block;
+        font-size: 1.125rem;
+        font-weight: bold;
+        position: relative;
+        margin: 0;
+        padding: 0.5rem;
+        color: #4aaaa5;
+        border-bottom: 0.16rem solid #cccccc;
+    }
+    
+    p {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        display: block;
+        font-size: 1rem;
+        color: rgba(126, 122, 122, 0.8);
+        padding: 0.2rem;
+    }
+    
+    img {
+        padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+        margin: 0.3rem 3rem 1rem 1rem;
+        background-color: #ffffff;
+    }
+    
+    /* Contact */
+    
+    #form {
+        height: calc(100vh - 3.125rem);
+        overflow-y: auto;
+        width: 640px;
+        left: calc(50% - 320px);
+        position: relative;
+        top: 3.5rem;
+        background-color: #ffffff;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        display: block;
+        font-size: 1em;
+        color: #333;
+        line-height: 150%;
+        padding: 0;
+    }
+    
+    #Contact-Form {
+        width: 100%;
+        height: calc(100vh - 3.125rem);
+        left: 0;
+        position: relative;
+        top: 0.8rem;
+        float: left;
+        background-color: #ffffff;
+        z-index: 1;
+    }
+    
+    label {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: rgba(126, 122, 122, 0.8);
+        padding: 0.2rem;
+        margin: 0.2rem;
+    }
+    
+    #name {
+        width: 95%;
+        padding: 0.2rem;
+        margin: 0.2rem;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: rgba(126, 122, 122, 0.8);
+    }
+    
+    #mail {
+        width: 95%;
+        padding: 0.2rem;
+        margin: 0.2rem;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: rgba(126, 122, 122, 0.8);
+    }
+    
+    #msg {
+        width: 95%;
+        height: 15.625rem;
+        padding: 0.2rem;
+        margin: 0.2rem;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: rgba(126, 122, 122, 0.8);
+    }
+    
+    .button {
+        background-color: #4aaaa5;
+        border: none;
+        color: white;
+        padding: 0.3rem 2rem;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        margin: 0.25rem 0.1rem;
+        cursor: pointer;
+    }
+    
+    /* Portfolio */
+    
+    #Portfolio-Page {
+        top: 0.2rem;
+        width: 100%;
+        left: 0;
+        height: calc(100vh - 3.125rem);
+        overflow-y: auto;
+        position: relative;
+        float: left;
+        background-color: #ffffff;
+    }
+    
+    .image1 {
+        position: relative;
+        float: left;
+    }
+    
+    .image2 {
+        position: relative;
+        float: left;
+    }
+    
+    .image3 {
+        position: relative;
+        float: left;
+    }
+    
+    .image4 {
+        position: relative;
+        float: left;
+    }
+    
+    .image5 {
+        position: relative;
+        float: left;
+    }
+    
+    h4 { 
+      position: absolute; 
+      bottom: 3rem;
+      width: 75%;
+      background-color: #4aaaa5;
+      font-size: 1rem;
+      text-align: center;
+      color: white;
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+    }
+    
+    h5 {
+        padding: 0.4rem;
+        margin: 0.4rem;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 0.8rem;
+        color: #b9bdbc;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2.5rem;
+        text-align: center;
+        background-color: #666666;
+        border-top: 0.1rem solid #4aaaa5;
+        z-index: 5;
+    }
+}
