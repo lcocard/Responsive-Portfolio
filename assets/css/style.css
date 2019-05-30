@@ -72,10 +72,6 @@
         float: right;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 0.5rem;
-        margin-block-start: 0em;
-        margin-block-end: 0em;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         color: #333;
     }
     
@@ -144,10 +140,6 @@
         font-family: 'Georgia', Times, Times New Roman, serif;
         display: block;
         font-size: 1rem;
-        margin-block-start: 0.3rem;
-        margin-block-end: 0.3rem;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         font-weight: bold;
         position: relative;
         margin: 0;
@@ -160,10 +152,6 @@
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         display: block;
         font-size: 0.8rem;
-        margin-block-start: 0.3rem;
-        margin-block-end: 0.3rem;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         color: rgba(126, 122, 122, 0.8);
         padding: 0.2rem;
     }
@@ -391,10 +379,6 @@
         float: right;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 0.8rem;
-        margin-block-start: 0em;
-        margin-block-end: 0em;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         color: #333;
     }
     
@@ -455,10 +439,6 @@
     h1 {
         display: block;
         font-size: 1.25rem;
-        margin-block-start: 0.67em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         font-weight: normal;
     }
     
@@ -467,10 +447,6 @@
         font-family: 'Georgia', Times, Times New Roman, serif;
         display: block;
         font-size: 1.125rem;
-        margin-block-start: 0.3rem;
-        margin-block-end: 0.3rem;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         font-weight: bold;
         position: relative;
         margin: 0;
@@ -483,10 +459,6 @@
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         display: block;
         font-size: 1rem;
-        margin-block-start: 0.3rem;
-        margin-block-end: 0.3rem;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         color: rgba(126, 122, 122, 0.8);
         padding: 0.2rem;
     }
@@ -714,10 +686,6 @@
         float: right;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         font-size: 0.8rem;
-        margin-block-start: 0em;
-        margin-block-end: 0em;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         color: #333;
     }
     
@@ -778,10 +746,6 @@
     h1 {
         display: block;
         font-size: 1.25rem;
-        margin-block-start: 0.67em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         font-weight: normal;
     }
     
@@ -790,10 +754,6 @@
         font-family: 'Georgia', Times, Times New Roman, serif;
         display: block;
         font-size: 1.125rem;
-        margin-block-start: 0.3rem;
-        margin-block-end: 0.3rem;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         font-weight: bold;
         position: relative;
         margin: 0;
@@ -806,10 +766,6 @@
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         display: block;
         font-size: 1rem;
-        margin-block-start: 0.3rem;
-        margin-block-end: 0.3rem;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         color: rgba(126, 122, 122, 0.8);
         padding: 0.2rem;
     }
@@ -1094,10 +1050,6 @@
     h1 {
         display: block;
         font-size: 2rem;
-        margin-block-start: 0.67em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         font-weight: normal;
     }
     
@@ -1106,10 +1058,6 @@
         font-family: 'Georgia', Times, Times New Roman, serif;
         display: block;
         font-size: 1.5rem;
-        margin-block-start: 0.83rem;
-        margin-block-end: 0.83rem;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         font-weight: bold;
         position: relative;
         margin: 0;
@@ -1122,10 +1070,6 @@
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         display: block;
         font-size: 1rem;
-        margin-block-start: 0.83rem;
-        margin-block-end: 0.83rem;
-        margin-inline-start: 0;
-        margin-inline-end: 0;
         color: rgba(126, 122, 122, 0.8);
         padding: 0.625rem;
     }
